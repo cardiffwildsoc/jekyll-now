@@ -2,17 +2,13 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+	<div>
+		<p>Thanks for checking out my site! I'm Sam, an Ecology undergraduate at Cardiff University.</p>
+		<p>My interests lie in behavioural ecology and the interaction between animal behaviour and disease / parasite transmission.</p>
+		<p>I am currently looking for a Research placement for the 2017/2018 academic year and I'm particularly interested in Disease Transmission and how Animal Behaviour affects this.</p>
+		<p>More information about my experience can be found <a href="experience">here</a>, and my CV is available <a href="https://samhillman.github.io/downloads/SamHillman.pdf" target="_blank">at this link</a>. </p>
+		<p>I was competitively selected for the <a href="http://www.britishecologicalsociety.org/education/undergraduate-summer-school-2015/" target="_blank">2016 British Ecological Society (BES) Summer School</a>, and this year I'm running the Cardiff University <a href="https://www.cardiffstudents.com/activities/society/wildlife/">Wildlife and Conservation Society</a>, helping students get involved with lots of conservation and training schemes! </p>
+	</div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
 </div>
